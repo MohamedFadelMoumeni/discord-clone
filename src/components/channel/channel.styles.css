@@ -1,0 +1,26 @@
+.sidebarChannel:hover > h4{
+    color: #fff;
+    background : #40464b;
+
+}
+.sidebarChannel > h4{
+    display: flex;
+    padding-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: #2f3135;
+    color: gray;
+    cursor: pointer;
+}
+.sidebarChannel__hash {
+    font-size: 30px;
+    padding: 8px;
+}
+.sidebar__div {
+    display: flex;
+    align-items: center;
+}
+.delete_icon {
+    cursor: pointer;
+    margin: 8px;
+}

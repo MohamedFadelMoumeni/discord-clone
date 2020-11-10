@@ -1,0 +1,12 @@
+.sidebar__profileInfo {
+    flex: 1;
+    padding: 10px;
+    
+}
+.sidebar__profileInfo > h3{
+    color: #fff;
+}
+.sidebar__profileIcons {
+    display: flex;
+
+}

@@ -1,0 +1,51 @@
+.sidebar__channels {
+    flex: 1;
+}
+.icon:hover{
+    color: #fff;
+}
+.sidebar__channelsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px;
+    background: #2f3135;
+    color: gray;
+}
+.sidebar__header{
+    display: flex;
+    align-items: center;
+}
+.sidebar__voice, .sidebar__profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background: #2f3135;
+    padding: 10px;
+    border: 1px solid gray;
+   
+}
+
+.sidebar__voiceInfo {
+    flex: 1;
+    padding: 10px;
+}
+.sidebar__voiceIcon{
+    color: #4fb185;
+}
+.sidebar__voiceInfo > h3{
+    color: #4fb185;
+}
+.sidebar__voiceInfo > p{
+    font-size: smaller;
+}
+
+.sidebar__voiceIcons .icon1, .icon2, .icon3{
+  margin: 5px;
+  cursor: pointer;
+}
+.notfound {
+    color: #fff;
+    text-align: center;
+}

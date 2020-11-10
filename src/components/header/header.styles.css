@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: gray;
+    border-bottom: 3px solid #2f3135;
+}
+.header__hash{
+    color: gray;
+    padding: 10px;
+    font-size: 30px;
+}
+.header__left > h3{
+   display: flex;
+   align-items: center;
+   color: #fff;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.5;
+}
+.chat__icon {
+    cursor: pointer; 
+}
+.chat__icon:hover{
+    color: white;
+}
+.chat__search {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background: #2f3135;
+    border-radius: 3px;
+    padding: 5px;
+}
+.chat__search > input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline-width: 0;
+}
+.signout{
+    cursor: pointer;
+}

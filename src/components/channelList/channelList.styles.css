@@ -1,0 +1,4 @@
+.sidebar__channelsList {
+     overflow-y: auto;
+     height: 50vh;
+}
